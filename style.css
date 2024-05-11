@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 200px;
+    padding: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button{
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+.topthird{
+    display: flex;
+    gap: 5px;
+}
+
+.topthird button{
+    width: 108px;
+    height: 70px;
+}
+
+#divideBtn{
+    height: 70px;
+    width: 70px;
+}
+
+.middlethird{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    gap: 5px;
+}
+
+.middlethird button{
+    height: 70px;
+    width: 70px;
+}
+
+.bottomthird{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomthird button{
+    height: 70px;
+    width: 70px;
+}
+
+#zeroBtn{
+    width: 145px;
+    height: 70px;
+}
+
+
