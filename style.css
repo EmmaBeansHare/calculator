@@ -215,6 +215,11 @@ body{
 }
 
 @media screen and (max-width: 380px){
+    .container{
+        margin-top: 120px;
+        width: 257px;
+    }
+    
     .display{
         height: 90px;
     }
@@ -254,6 +259,12 @@ body{
     #zeroBtn{
         height: 60px;
         width: 126px;
+    }
+}
+
+@media screen and (min-width: 381px) and (max-width: 500px){
+    .container{
+        margin-top: 120px;
     }
 }
 
