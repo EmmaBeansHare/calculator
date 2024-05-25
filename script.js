@@ -16,6 +16,8 @@ let commaBtn = document.getElementById("commaBtn");
 let numberBtns = document.querySelectorAll(".num");
 let operatorBtns  = document.querySelectorAll(".oper");
 
+
+
 commaBtn.addEventListener("click", function(){
     if(!numArray.includes(".")){
         numArray.push(".")
