@@ -1,7 +1,7 @@
 # calculator
 A calculator made with HTML, CSS and JS
 
-[preview](https://emmabeanshare.github.io/Resident-Evil/) <<<<<<
+[preview](https://emmabeanshare.github.io/calculator/) <<<<<<
 
 Mobile-responsive: ✅
 
